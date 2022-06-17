@@ -15,34 +15,34 @@
    1. **Add** -> **Reference** -> **tiff**.
    2. **Properties** -> **VC++ Directories** -> **Include Directories** -> add ```../../tiff-4.4.0/libtiff/```.
    3. Add a new cpp file, i.e., ```Source.cpp```.
-   4. Voilà.
-    ```cpp
-    #include <iostream>
-    #include "tiffio.h"
+7. Voilà.
+```cpp
+#include <iostream>
+#include "tiffio.h"
 
-    using namespace std;
+using namespace std;
 
-    int main()
-    {
-    	string image = "../../image/Lena.tiff";
+int main()
+{
+  string image = "../../image/Lena.tiff";
 
-    	TIFF* tif = TIFFOpen(image.c_str(), "r");
-    	tmsize_t sls = TIFFScanlineSize(tif);
-    	tdata_t buf_tif = _TIFFmalloc(sls);
-    	int height = 0;
-    	TIFFGetField(tif, TIFFTAG_IMAGELENGTH, &height);
+  TIFF* tif = TIFFOpen(image.c_str(), "r");
+  tmsize_t sls = TIFFScanlineSize(tif);
+  tdata_t buf_tif = _TIFFmalloc(sls);
+  int height = 0;
+  TIFFGetField(tif, TIFFTAG_IMAGELENGTH, &height);
 
-    	for (int row = 0; row < height; row++)
-    	{
-    		TIFFReadScanline(tif, buf_tif, row);
-    		unsigned char* data = (unsigned char*)buf_tif;
+  for (int row = 0; row < height; row++)
+  {
+    TIFFReadScanline(tif, buf_tif, row);
+    unsigned char* data = (unsigned char*)buf_tif;
 
-    		// do something here.
-    	}
+    // do something here.
+  }
 
-    	_TIFFfree(buf_tif);
-    	TIFFClose(tif);
+  _TIFFfree(buf_tif);
+  TIFFClose(tif);
 
-    	return 0;
-    }
-    ```
+  return 0;
+}
+```
