@@ -1,0 +1,75 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeCXXInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeRCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CheckLibraryExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CheckSymbolExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CheckTypeSize.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/FindGLUT.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/FindOpenGL.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/FindPkgConfig.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/FindZLIB.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/TestBigEndian.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/3.22.22040401-MSVC_2/CMakeCCompiler.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/3.22.22040401-MSVC_2/CMakeCXXCompiler.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/3.22.22040401-MSVC_2/CMakeRCCompiler.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/3.22.22040401-MSVC_2/CMakeSystem.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeLists.txt
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/AutotoolsCompat.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/AutotoolsVersion.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/CXXLibrary.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/CompilerChecks.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/DeflateCodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindCMath.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindDeflate.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindJBIG.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindJPEG.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindLERC.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindLibLZMA.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindWebP.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/FindZSTD.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/IncludeChecks.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/InternalCodecs.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/JBIGCodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/JPEGCodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/LERCCodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/LZMACodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/LargeFileSupport.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/LibraryFeatures.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/LinkerChecks.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/OpenGLChecks.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/PixarLogCodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/PkgConfig.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/ProcessorChecks.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/Release.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/SymbolChecks.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/TypeSizeChecks.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/WebPCodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/WindowsSupport.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/cmake/ZSTDCodec.cmake
+C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/libtiff-4.pc.in

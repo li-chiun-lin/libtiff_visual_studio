@@ -1,0 +1,451 @@
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f0609.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0609.dir\Debug\\" /Fd"cmTC_f0609.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -Wl,--version-script=C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/conftest.map "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\src.c"
+cl : 命令列 error D8021: 無效的數字引數 '/Wl,--version-script=C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/conftest.map' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_f0609.vcxproj]
+
+
+Source file was:
+int main(void){return 0;}
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15b5d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15b5d.dir\Debug\\" /Fd"cmTC_15b5d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'strings.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_15b5d.vcxproj]
+
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_70767.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70767.dir\Debug\\" /Fd"cmTC_70767.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'sys/time.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_70767.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_32938.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32938.dir\Debug\\" /Fd"cmTC_32938.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'unistd.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_32938.vcxproj]
+
+
+
+Determining if the getopt exist failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_50c28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50c28.dir\Debug\\" /Fd"cmTC_50c28.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 無法開啟包含檔案: 'unistd.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_50c28.vcxproj]
+
+
+File C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getopt
+  return ((int*)(&getopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the optarg exist failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0076d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0076d.dir\Debug\\" /Fd"cmTC_0076d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 無法開啟包含檔案: 'getopt.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_0076d.vcxproj]
+
+
+File C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <getopt.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef optarg
+  return ((int*)(&optarg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mmap exist failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15559.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckSymbolExists.c
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 無法開啟包含檔案: 'sys/mman.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_15559.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15559.dir\Debug\\" /Fd"cmTC_15559.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+
+
+File C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5f39d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f39d.dir\Debug\\" /Fd"cmTC_5f39d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 無法開啟包含檔案: 'unistd.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_5f39d.vcxproj]
+
+
+File C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file GL/gl.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_86c82.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86c82.dir\Debug\\" /Fd"cmTC_86c82.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glAccum' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,33): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,58): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glAlphaFunc' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,63): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,21): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,30): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,30): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glAreTexturesResident' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,52): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,109): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glArrayElement' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,40): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBegin' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,33): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,45): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBindTexture' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,39): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,69): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBitmap' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,34): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,147): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBlendFunc' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,68): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glCallList' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,36): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glCallLists' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,81): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClear' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,33): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,49): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearAccum' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,94): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearColor' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,98): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearDepth' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,53): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearIndex' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearStencil' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,40): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClipPlane' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,76): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glColor3b' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,35): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,73): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glColor3bv' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,36): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,52): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glColor3d' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,35): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,79): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1177,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1177,16): fatal error C1003: 錯誤計數超過 100; 停止編譯 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_86c82.vcxproj]
+
+
+
+Determining if the include file GL/glu.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e1f06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1f06.dir\Debug\\" /Fd"cmTC_e1f06.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glAccum' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,33): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1157,58): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glAlphaFunc' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1158,63): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,21): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,30): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,30): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glAreTexturesResident' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,52): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1159,109): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glArrayElement' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,40): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1160,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBegin' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,33): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1161,45): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBindTexture' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,39): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1162,69): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBitmap' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,34): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1163,147): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glBlendFunc' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1164,68): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glCallList' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,36): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1165,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glCallLists' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1166,81): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClear' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,33): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1167,49): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearAccum' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1168,94): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearColor' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1169,98): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearDepth' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1170,53): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearIndex' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,38): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1171,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClearStencil' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,40): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1172,48): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glClipPlane' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,37): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1173,76): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glColor3b' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,35): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1174,73): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glColor3bv' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,36): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1175,52): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,25): error C2085: 'APIENTRY': 不在型式參數清單中 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,25): error C2146: 語法錯誤: 遺漏 ',' (在識別項 'glColor3d' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,35): error C2143: 語法錯誤: 遺漏 ';' (在 '(' 之前) [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1176,79): error C2059: 語法錯誤: ')' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1177,16): error C2054: 在 'WINGDIAPI' 之後必須有 '(' [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL/gl.h(1177,16): fatal error C1003: 錯誤計數超過 100; 停止編譯 [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_e1f06.vcxproj]
+
+
+
+Determining if the include file GL/glut.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5a661.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_5a661.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a661.dir\Debug\\" /Fd"cmTC_5a661.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+
+
+
+Determining if the include file GLUT/glut.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_109b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'GLUT/glut.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_109b5.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_109b5.dir\Debug\\" /Fd"cmTC_109b5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+
+
+
+Determining if the include file OpenGL/gl.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6a805.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'OpenGL/gl.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_6a805.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a805.dir\Debug\\" /Fd"cmTC_6a805.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+
+
+
+Determining if the include file OpenGL/glu.h exists failed with the following output:
+Change Dir: C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_67db7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine for .NET Framework 17.2.1+52cd2da31 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31329 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  CheckIncludeFile.c
+C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'OpenGL/glu.h': No such file or directory [C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\cmTC_67db7.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67db7.dir\Debug\\" /Fd"cmTC_67db7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\ttn\Desktop\libtiff_visual_studio\tiff-4.4.0\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+
+
+

@@ -1,0 +1,10 @@
+^C:\USERS\TTN\DESKTOP\LIBTIFF_VISUAL_STUDIO\TIFF-4.4.0\LIBTIFF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0 -BC:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0 --check-stamp-file C:/Users/ttn/Desktop/libtiff_visual_studio/tiff-4.4.0/libtiff/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
